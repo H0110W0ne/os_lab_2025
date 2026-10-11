@@ -1,6 +1,7 @@
 #include "swap.h"
-
 void Swap(char *left, char *right)
 {
-	// ваш код здесь
+char temp = *left; // Сохраняем первый символ перед перезаписью.
+*left = *right; // Меняем значение по переданному адресу.
+*right = temp;
 }
