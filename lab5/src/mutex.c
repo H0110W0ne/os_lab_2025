@@ -1,6 +1,3 @@
-/* Based on the course's mutex.c example, adapted there by A. Kostin
- * from Using POSIX Threads by Brad Nichols, Dick Buttlar, and Jackie Farrell.
- */
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
